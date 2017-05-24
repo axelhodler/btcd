@@ -25,7 +25,6 @@ import:
   - leveldb/iterator
   - leveldb/opt
   - leveldb/util
-- package: github.com/btcsuite/seelog
 - package: github.com/btcsuite/websocket
 - package: github.com/btcsuite/winsvc
   subpackages:
@@ -37,3 +36,4 @@ import:
   - spew
 - package: github.com/jessevdk/go-flags
   version: 1679536dcc895411a9f5848d9a0250be7856448c
+- package: github.com/jrick/logrotate
